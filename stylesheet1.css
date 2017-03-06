@@ -1,0 +1,20 @@
+body {
+    background-color: white;
+}
+
+
+
+header {
+    padding: 1.2em;
+    color: white;
+    background-color: rgb(26,81,182);
+    clear: left;
+    /*text-align: center;*/
+}
+
+
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}

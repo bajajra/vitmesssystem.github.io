@@ -2,8 +2,145 @@
 <html>
 <head>
 	<title>VIT UNIVERSITY MESS MANAGEMENT SYSTEM</title>
+	<link rel="stylesheet" href="stylesheet1.css">
+	<style>
+		/*a:link    {color:white; background-color:transparent; text-decoration:none}
+		a:visited {color:white; background-color:transparent; text-decoration:none}
+		a:hover   {color:white; background-color:transparent; text-decoration:underline}
+		a:active  {color:white; background-color:transparent; text-decoration:underline}*/
+
+		/*.ul1 {
+			list-style-type: none;
+			display: inline;
+            opacity: 0.8;
+            background-color: rgb(26,81,182);*/
+/*			background: linear-gradient(-90deg, rgb(84, 84, 253), #1100de);*/
+			/*max-width: 100%;
+			width: 25%;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			position: fixed;
+            z-index: 1;
+		}
+
+		.ul1 li a {
+			text-decoration: none;
+            font-weight: bold;
+            font-size: 10px;
+			padding: 20px 27px;
+			display: block;
+			background: transparent;*/
+/*            filter: brightness(50%);*/
+			/*color: white;
+			transition: 0.25s;
+		}
+		.ul1 li a:hover {
+			background-color: rgb(73, 106, 173);
+			color:white  ;*/
+
+			ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(26,81,182);
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 3px 130px;
+    text-decoration: none;
+    background: transparent;
+    font-weight: bold;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rgb(73, 106, 173);
+}
+	</style> 
 </head>
 <body>
-<img src="vit.png">
+	<header>
+		<h1 id="head_1" align="center">
+		<img src="logo.png" height="60" width="180" style="float:left;">
+		VIT UNIVERSITY MESS MANAGEMENT SYSTEM
+		</h1><br></header>
+		<!--<ul class="ul1">-->
+		<!--<img src="crcl.png" height="58" style="float: left; margin: 0 10px 0 10px;padding: 0 10px 0 10px;">-->
+        	<!--<li><a href="#">   	HOME		             </a></li>
+			<li><a href="#">	MESS MENU		             </a></li>
+			<li><a href="#">	FOOD ITEMS		    </a></li>
+			<li><a href="#">	COMPLAINTS	                    </a></li>-->
+		<!--<li><a href="#">	New to Valencia                       </a></li>-->
+		<!--</ul>
+	<br><br><br><br><br><br><br><br>-->
+	<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+
+</ul>
+	
+	
+	<form action="/action_page.php" method="post">
+	  First name:<br>
+	  <input type="text" name="firstname" placeholder="first name">
+	  <br>
+	  Last name:<br>
+	  <input type="text" name="lastname" placeholder="lastname"><br>
+	  Registration Number:<br>
+	  <input type="text" name="regno" placeholder="Regno">
+	  <br><br>
+	  <input type="submit" value="Submit" onclick="alert('Form submitterd successfully')">
+	</form> 
+	<form>
+		Mess type:<br>
+		<select>
+			<option value="Special">SPECIAL MESS</option>
+    		<option value="North">NORTH MESS</option>
+    		<option value="South">SOUTH MESS</option>
+		</select><br>
+		
+		Branch:<br>
+		<select name="branch">
+    		<option value="16BCE">COMPUTER SCIENCE</option>
+    		<option value="16BLC">ELEC AND COMPUTER</option>
+    		<option value="16BEE">ELECTRICAL AND ELECTRONICS</option>
+    		<option value="16BEC">ELECTRONICS AND COMMUNICATION</option>
+    		<option value="16BCL">CIVIL</option>
+    		<option value="16BFT">FASHION TECHNOLOGY</option>
+  		</select>
+
+  		<!--
+  		<form action="/action_page.php">
+  			<input list="browsers" name="browser">
+	  			<datalist id="browsers">
+	    			<option value="Internet Explorer">
+	    			<option value="Firefox">
+	    			<option value="Chrome">
+	    			<option value="Opera">
+	    			<option value="Safari">
+	  			</datalist>
+  			<input type="submit">
+  			Username: <input type="text" name="user">
+  			Encryption: <keygen name="security">
+  			<input type="submit">
+  			<input type="range" id="a" name="a" value="50">
+  			<input type="reset">
+  			<input type="checkbox" name="vehicle1" value="Bike">
+  			<input type="password" name="psw">
+		</form>
+	</form>-->
 </body>
+
 </html>
